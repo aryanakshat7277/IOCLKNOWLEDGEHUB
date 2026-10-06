@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IOCL Brand Colors -->
+    <color name="iocl_navy">#FF0D1B4A</color>
+    <color name="iocl_navy_light">#FF1A2F6B</color>
+    <color name="iocl_navy_dark">#FF060E2A</color>
+    <color name="iocl_blue">#FF1E3A8A</color>
+    <color name="iocl_blue_accent">#FF3B82F6</color>
+    <color name="iocl_saffron">#FFFF6F00</color>
+    <color name="iocl_saffron_light">#FFFFA040</color>
+    <color name="iocl_orange">#FFF57C00</color>
+    <color name="iocl_amber">#FFFFB300</color>
+    <color name="iocl_red">#FFB71C1C</color>
+    <color name="iocl_green">#FF059669</color>
+    <color name="iocl_white">#FFFFFFFF</color>
+    <color name="iocl_black">#FF0F172A</color>
+
+    <!-- Theme Colors -->
+    <color name="seed">#FF0D1B4A</color>
+    <color name="status_bar_color">#00000000</color>
+    <color name="navigation_bar_color">#00000000</color>
+</resources>

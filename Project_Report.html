@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Report: IOCL Knowledge Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 40px 60px;
+        }
+        h1, h2, h3 {
+            color: #0A1535;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            border-bottom: 3px solid #F58220; /* IOCL Saffron */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.3em;
+            margin-top: 25px;
+            color: #0d47a1;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .cover-page {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cover-title {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #0A1535;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .cover-subtitle {
+            font-size: 1.5em;
+            color: #F58220;
+            margin-bottom: 50px;
+        }
+        .cover-details {
+            font-size: 1.2em;
+            color: #666;
+            text-align: center;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0A1535;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="cover-page">
+        <div class="cover-title">PROJECT REPORT</div>
+        <div class="cover-subtitle">IOCL Knowledge Hub</div>
+        <div class="cover-details">
+            <p><strong>Developed For:</strong> Indian Oil Corporation Limited (IOCL)</p>
+            <p><strong>Project Type:</strong> Enterprise Android Application</p>
+            <p><strong>Date:</strong> July 2026</p>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- Executive Summary -->
+    <h2>1. Executive Summary</h2>
+    <p>
+        The <strong>IOCL Knowledge Hub</strong> is a state-of-the-art enterprise Android application designed exclusively for Indian Oil Corporation Limited. The primary objective of this project is to centralize organizational knowledge, facilitate seamless communication, and empower employees through an intelligent, AI-driven platform. 
+    </p>
+    <p>
+        By bridging the gap between legacy document distribution and modern mobile accessibility, the application provides secure, role-based access to internal magazines, administrative notices, and live news. The integration of cutting-edge Generative AI models further elevates the user experience by offering an interactive chatbot capable of querying enterprise intelligence on demand.
+    </p>
+
+    <!-- Project Scope & Features -->
+    <h2>2. Key Features and Capabilities</h2>
+    <p>
+        The application was architected with a focus on a premium user experience (UX) and robust backend reliability. Core features include:
+    </p>
+    <ul>
+        <li><strong>God-Level Dashboard UI:</strong> A highly animated, aesthetically premium dashboard utilizing parallax mesh gradients, glassmorphism, and dynamic quick-action widgets.</li>
+        <li><strong>Document Repository (Magazines & Notices):</strong> A native, high-performance PDF rendering engine allowing users to read, bookmark, and download internal publications securely.</li>
+        <li><strong>Intelligent Chatbot Assistant:</strong> Multi-model Generative AI integration (supporting Gemini, Groq, DeepSeek, OpenAI, and OpenRouter APIs) providing conversational assistance and content summarization.</li>
+        <li><strong>Live News Feed:</strong> Real-time organizational updates with an intelligent fallback mechanism guaranteeing full-coverage external reading via Google Search parameters.</li>
+        <li><strong>Role-Based Access Control (RBAC):</strong> Distinct functional flows for standard "Employees" and privileged "Admins". Admins have exclusive rights to manage users, view analytics, and push new documents.</li>
+        <li><strong>Persistent Authentication:</strong> Secure, auto-resolving sessions using Firebase Authentication and local DataStore caching to eliminate repetitive sign-ins.</li>
+    </ul>
+
+    <!-- Technology Stack -->
+    <h2>3. Technology Stack</h2>
+    <p>
+        The project adheres to modern Android development standards, ensuring scalability, maintainability, and top-tier performance.
+    </p>
+    <table>
+        <tr>
+            <th>Domain</th>
+            <th>Technology / Framework</th>
+        </tr>
+        <tr>
+            <td><strong>Programming Language</strong></td>
+            <td>Kotlin</td>
+        </tr>
+        <tr>
+            <td><strong>UI Toolkit</strong></td>
+            <td>Jetpack Compose (Declarative UI)</td>
+        </tr>
+        <tr>
+            <td><strong>Architecture Pattern</strong></td>
+            <td>Clean Architecture + MVVM (Model-View-ViewModel)</td>
+        </tr>
+        <tr>
+            <td><strong>Dependency Injection</strong></td>
+            <td>Dagger Hilt</td>
+        </tr>
+        <tr>
+            <td><strong>Local Storage / Caching</strong></td>
+            <td>Room Database (SQLite) & Jetpack DataStore</td>
+        </tr>
+        <tr>
+            <td><strong>Backend Services</strong></td>
+            <td>Firebase (Authentication, Firestore, Cloud Storage)</td>
+        </tr>
+        <tr>
+            <td><strong>Networking</strong></td>
+            <td>Retrofit2, OkHttp3</td>
+        </tr>
+        <tr>
+            <td><strong>Asynchronous Programming</strong></td>
+            <td>Kotlin Coroutines & Flow</td>
+        </tr>
+    </table>
+
+    <div class="page-break"></div>
+
+    <!-- System Architecture -->
+    <h2>4. System Architecture</h2>
+    <p>
+        The application is structured using <strong>Clean Architecture</strong> principles, dividing the codebase into three distinct layers to enforce the separation of concerns:
+    </p>
+    <h3>4.1 Presentation Layer</h3>
+    <p>
+        Built entirely with Jetpack Compose. ViewModels manage the UI state streams (using StateFlow), handling user intents and exposing immutable states to the composable functions. This layer handles all complex animations and transitions.
+    </p>
+    <h3>4.2 Domain Layer</h3>
+    <p>
+        The core of the application. It contains the business logic, use cases, models (e.g., <code>User</code>, <code>LiveNewsItem</code>), and repository interfaces. This layer is completely agnostic of any Android framework or third-party libraries.
+    </p>
+    <h3>4.3 Data Layer</h3>
+    <p>
+        Responsible for data retrieval and persistence. Repository implementations resolve data from either local sources (Room DB) or remote sources (Firebase, REST APIs). It abstracts the origin of data from the Domain layer.
+    </p>
+
+    <!-- Security & Best Practices -->
+    <h2>5. Security and Version Control</h2>
+    <p>
+        Enterprise-grade security measures were implemented throughout the development lifecycle:
+    </p>
+    <ul>
+        <li><strong>API Key Abstraction:</strong> All sensitive API keys (Gemini, OpenAI, etc.) are abstracted out of the source code into a local <code>.env</code> file. These are injected during build time via Gradle's <code>BuildConfig</code>, ensuring keys are never leaked to version control.</li>
+        <li><strong>Secure Data Transmission:</strong> All networking operations utilize HTTPS. Authentication is handled securely via Firebase Auth OAuth 2.0 implementation.</li>
+        <li><strong>Repository Cleanliness:</strong> A comprehensive <code>.gitignore</code> configuration prevents build artifacts, keystores, and local environment variables from being pushed to the remote repository.</li>
+    </ul>
+
+    <!-- Conclusion -->
+    <h2>6. Conclusion</h2>
+    <p>
+        The IOCL Knowledge Hub represents a significant leap forward in corporate digital infrastructure. By combining a highly polished, fluid user interface with the power of modern AI and scalable backend services, the application not only meets but exceeds the requirements for a modern enterprise knowledge platform. The robust architectural foundations ensure that the application can be easily maintained, scaled, and expanded with new features in the future.
+    </p>
+
+</body>
+</html>

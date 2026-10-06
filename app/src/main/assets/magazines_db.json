@@ -1,0 +1,80 @@
+[
+    {
+        "id": "local_mag_1",
+        "title": "Business Development",
+        "filename": "Business_Development_Brochure (1).pdf",
+        "description": "Official IOCL Publication: Business Development"
+    },
+    {
+        "id": "local_mag_2",
+        "title": "CSR (Corporate Social Responsibility)",
+        "filename": "CSR (1).pdf",
+        "description": "Official IOCL Publication: CSR"
+    },
+    {
+        "id": "local_mag_3",
+        "title": "Cryogenics",
+        "filename": "Cryogenics (1).pdf",
+        "description": "Official IOCL Publication: Cryogenics"
+    },
+    {
+        "id": "local_mag_4",
+        "title": "E&P (Exploration & Production)",
+        "filename": "E&P_Brochure (1).pdf",
+        "description": "Official IOCL Publication: E&P"
+    },
+    {
+        "id": "local_mag_5",
+        "title": "E&P Brochure",
+        "filename": "E&P_Brochure.pdf",
+        "description": "Official IOCL Publication: E&P Brochure"
+    },
+    {
+        "id": "local_mag_6",
+        "title": "Petrochemical Brochure 2018",
+        "filename": "Final-Petrochemical-Brochure2018.pdf",
+        "description": "Official IOCL Publication: Petrochemical Brochure 2018"
+    },
+    {
+        "id": "local_mag_7",
+        "title": "HSE (Health, Safety & Environment)",
+        "filename": "HSE-brochure.pdf",
+        "description": "Official IOCL Publication: HSE"
+    },
+    {
+        "id": "local_mag_8",
+        "title": "Harnessing Nature",
+        "filename": "HarnessingNature_Folder.pdf",
+        "description": "Official IOCL Publication: Harnessing Nature"
+    },
+    {
+        "id": "local_mag_9",
+        "title": "IOCL R&D",
+        "filename": "IOCL_R&D Brouchure (2) (1).pdf",
+        "description": "Official IOCL Publication: IOCL R&D"
+    },
+    {
+        "id": "local_mag_10",
+        "title": "IiPM Brochure",
+        "filename": "IiPM-Brochure.pdf",
+        "description": "Official IOCL Publication: IiPM Brochure"
+    },
+    {
+        "id": "local_mag_11",
+        "title": "IndianOil Corporate Brochure 2018",
+        "filename": "IndianOil_Corporate_brochure-2018.pdf",
+        "description": "Official IOCL Publication: Corporate Brochure 2018"
+    },
+    {
+        "id": "local_mag_12",
+        "title": "Make In India",
+        "filename": "IndianOil_Make In India Brochure.pdf",
+        "description": "Official IOCL Publication: Make In India"
+    },
+    {
+        "id": "local_mag_13",
+        "title": "Inventing The Future",
+        "filename": "Inventing-The-Future.pdf",
+        "description": "Official IOCL Publication: Inventing The Future"
+    }
+]

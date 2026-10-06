@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- 
+        Font files placeholder. To use custom fonts:
+        1. Download Poppins and Inter fonts from Google Fonts
+        2. Place .ttf files in res/font/ directory
+        3. Name them: poppins_light.ttf, poppins_regular.ttf, poppins_medium.ttf, 
+           poppins_semibold.ttf, poppins_bold.ttf, poppins_extrabold.ttf,
+           inter_light.ttf, inter_regular.ttf, inter_medium.ttf, 
+           inter_semibold.ttf, inter_bold.ttf
+    -->
+</font-family>
